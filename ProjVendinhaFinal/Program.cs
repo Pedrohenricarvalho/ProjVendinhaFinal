@@ -1,17 +1,21 @@
-namespace ProjVendinhaFinal
+using ProjVendinhaFinal;
+using ProjVendinhaFinal.Contexts;
+using ProjVendinhaFinal.Screens;
+using System;
+using System.Windows.Forms;
+
+
+namespace Vendinha.Desktop
 {
     internal static class Program
     {
-        /// <summary>
-        ///  The main entry point for the application.
-        /// </summary>
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
+            VendinhaDbContext.InicializarBanco();
+
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            Application.Run(new FormPrincipal());
         }
     }
 }
