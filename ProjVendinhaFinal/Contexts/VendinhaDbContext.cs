@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace Vendinha.Desktop.Contexts
+namespace ProjVendinhaFinal.Contexts
 {
     // Responsavel pela conexao e pela criacao das tabelas do banco.
     public class VendinhaDbContext

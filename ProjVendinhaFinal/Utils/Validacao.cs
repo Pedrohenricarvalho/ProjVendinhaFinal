@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Vendinha.Desktop.Utils
+namespace ProjVendinhaFinal.Utils
 {
     public static class Validacao
     {
