@@ -1,5 +1,10 @@
 ﻿using System;
 using Microsoft.Data.Sqlite;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 
 namespace Vendinha.Desktop.Contexts
 {
